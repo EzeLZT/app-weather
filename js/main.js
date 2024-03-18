@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   if (nameCity.value === "" || nameCountry.value === "") {
-    showError("Ambos campos son obligatorios");
+    showError("Both fields are required");
     return;
   }
 
